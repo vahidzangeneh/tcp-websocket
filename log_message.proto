@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message LogMessage {
+  required string log_level = 1;
+  required string logger = 2;
+  required bytes mac = 3;
+  optional string message = 4;
+}

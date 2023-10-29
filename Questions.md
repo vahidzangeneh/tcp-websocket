@@ -92,3 +92,4 @@ I watched a couple of video explaining Tonies and Toniebox. So based on my obser
 - I saw that when a Tonie is detached from the Toniebox, while an audio is playing, after attaching again the audio was resumed which is very nice and complicate to implement. So maybe it is stored in the Tonie to know the last state and when it is connected again the state is resumed (I am just guessing!)
 - As it is possible to upload custom audios, the security of these devices is so critical to make sure that an arbitrary audio from a malicious user is not uploaded
 - As the Tonieboxes are connecting to the servers to get updates and settings we should make sure that we are providing high available and performance service
+- Authentication of Tonies by the Toniebox could be challenging
